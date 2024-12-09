@@ -1,0 +1,12 @@
+D:\Projekty\RecipesSupport\RecipesSupport\NutritionixClient\bin\Debug\net8.0\NutritionixClient.deps.json
+D:\Projekty\RecipesSupport\RecipesSupport\NutritionixClient\bin\Debug\net8.0\NutritionixClient.dll
+D:\Projekty\RecipesSupport\RecipesSupport\NutritionixClient\bin\Debug\net8.0\NutritionixClient.pdb
+D:\Projekty\RecipesSupport\RecipesSupport\NutritionixClient\obj\Debug\net8.0\NutritionixClient.csproj.AssemblyReference.cache
+D:\Projekty\RecipesSupport\RecipesSupport\NutritionixClient\obj\Debug\net8.0\NutritionixClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projekty\RecipesSupport\RecipesSupport\NutritionixClient\obj\Debug\net8.0\NutritionixClient.AssemblyInfoInputs.cache
+D:\Projekty\RecipesSupport\RecipesSupport\NutritionixClient\obj\Debug\net8.0\NutritionixClient.AssemblyInfo.cs
+D:\Projekty\RecipesSupport\RecipesSupport\NutritionixClient\obj\Debug\net8.0\NutritionixClient.csproj.CoreCompileInputs.cache
+D:\Projekty\RecipesSupport\RecipesSupport\NutritionixClient\obj\Debug\net8.0\NutritionixClient.dll
+D:\Projekty\RecipesSupport\RecipesSupport\NutritionixClient\obj\Debug\net8.0\refint\NutritionixClient.dll
+D:\Projekty\RecipesSupport\RecipesSupport\NutritionixClient\obj\Debug\net8.0\NutritionixClient.pdb
+D:\Projekty\RecipesSupport\RecipesSupport\NutritionixClient\obj\Debug\net8.0\ref\NutritionixClient.dll

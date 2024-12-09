@@ -1,0 +1,14 @@
+D:\Projekty\RecipesSupport\RecipesSupport\Domain\bin\Debug\net8.0\RecipesSupport.Domain.deps.json
+D:\Projekty\RecipesSupport\RecipesSupport\Domain\bin\Debug\net8.0\RecipesSupport.Domain.runtimeconfig.json
+D:\Projekty\RecipesSupport\RecipesSupport\Domain\bin\Debug\net8.0\RecipesSupport.Domain.dll
+D:\Projekty\RecipesSupport\RecipesSupport\Domain\bin\Debug\net8.0\RecipesSupport.Domain.pdb
+D:\Projekty\RecipesSupport\RecipesSupport\Domain\obj\Debug\net8.0\RecipesSupport.Domain.csproj.AssemblyReference.cache
+D:\Projekty\RecipesSupport\RecipesSupport\Domain\obj\Debug\net8.0\RecipesSupport.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projekty\RecipesSupport\RecipesSupport\Domain\obj\Debug\net8.0\RecipesSupport.Domain.AssemblyInfoInputs.cache
+D:\Projekty\RecipesSupport\RecipesSupport\Domain\obj\Debug\net8.0\RecipesSupport.Domain.AssemblyInfo.cs
+D:\Projekty\RecipesSupport\RecipesSupport\Domain\obj\Debug\net8.0\RecipesSupport.Domain.csproj.CoreCompileInputs.cache
+D:\Projekty\RecipesSupport\RecipesSupport\Domain\obj\Debug\net8.0\RecipesSupport.Domain.dll
+D:\Projekty\RecipesSupport\RecipesSupport\Domain\obj\Debug\net8.0\refint\RecipesSupport.Domain.dll
+D:\Projekty\RecipesSupport\RecipesSupport\Domain\obj\Debug\net8.0\RecipesSupport.Domain.pdb
+D:\Projekty\RecipesSupport\RecipesSupport\Domain\obj\Debug\net8.0\RecipesSupport.Domain.genruntimeconfig.cache
+D:\Projekty\RecipesSupport\RecipesSupport\Domain\obj\Debug\net8.0\ref\RecipesSupport.Domain.dll

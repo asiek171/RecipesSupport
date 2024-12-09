@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E29F6581-303D-470F-9925-BF608A75D6D6}|RecipesSupport\\RecipesSupport.csproj|d:\\projekty\\recipessupport\\recipessupport\\recipessupport\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E29F6581-303D-470F-9925-BF608A75D6D6}|RecipesSupport\\RecipesSupport.csproj|solutionrelative:recipessupport\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E29F6581-303D-470F-9925-BF608A75D6D6}|RecipesSupport\\RecipesSupport.csproj|d:\\projekty\\recipessupport\\recipessupport\\recipessupport\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E29F6581-303D-470F-9925-BF608A75D6D6}|RecipesSupport\\RecipesSupport.csproj|solutionrelative:recipessupport\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\RecipesSupport\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "RecipesSupport\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\RecipesSupport\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "RecipesSupport\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T21:45:31.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\RecipesSupport\\Program.cs",
+              "RelativeDocumentMoniker": "RecipesSupport\\Program.cs",
+              "ToolTip": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\RecipesSupport\\Program.cs",
+              "RelativeToolTip": "RecipesSupport\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwA0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T22:48:06.416Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

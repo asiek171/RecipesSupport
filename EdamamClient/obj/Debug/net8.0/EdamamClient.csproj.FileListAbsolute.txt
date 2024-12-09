@@ -1,0 +1,12 @@
+D:\Projekty\RecipesSupport\RecipesSupport\EdamamClient\bin\Debug\net8.0\EdamamClient.deps.json
+D:\Projekty\RecipesSupport\RecipesSupport\EdamamClient\bin\Debug\net8.0\EdamamClient.dll
+D:\Projekty\RecipesSupport\RecipesSupport\EdamamClient\bin\Debug\net8.0\EdamamClient.pdb
+D:\Projekty\RecipesSupport\RecipesSupport\EdamamClient\obj\Debug\net8.0\EdamamClient.csproj.AssemblyReference.cache
+D:\Projekty\RecipesSupport\RecipesSupport\EdamamClient\obj\Debug\net8.0\EdamamClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projekty\RecipesSupport\RecipesSupport\EdamamClient\obj\Debug\net8.0\EdamamClient.AssemblyInfoInputs.cache
+D:\Projekty\RecipesSupport\RecipesSupport\EdamamClient\obj\Debug\net8.0\EdamamClient.AssemblyInfo.cs
+D:\Projekty\RecipesSupport\RecipesSupport\EdamamClient\obj\Debug\net8.0\EdamamClient.csproj.CoreCompileInputs.cache
+D:\Projekty\RecipesSupport\RecipesSupport\EdamamClient\obj\Debug\net8.0\EdamamClient.dll
+D:\Projekty\RecipesSupport\RecipesSupport\EdamamClient\obj\Debug\net8.0\refint\EdamamClient.dll
+D:\Projekty\RecipesSupport\RecipesSupport\EdamamClient\obj\Debug\net8.0\EdamamClient.pdb
+D:\Projekty\RecipesSupport\RecipesSupport\EdamamClient\obj\Debug\net8.0\ref\EdamamClient.dll

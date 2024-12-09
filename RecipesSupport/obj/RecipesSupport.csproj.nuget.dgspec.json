@@ -1,0 +1,612 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projekty\\RecipesSupport\\RecipesSupport\\RecipesSupport\\RecipesSupport.csproj": {}
+  },
+  "projects": {
+    "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Application\\ReciesSupport.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Application\\ReciesSupport.Application.csproj",
+        "projectName": "ReciesSupport.Application",
+        "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Application\\ReciesSupport.Application.csproj",
+        "packagesPath": "C:\\Users\\48504\\.nuget\\packages\\",
+        "outputPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\48504\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj": {
+                "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj"
+              },
+              "D:\\Projekty\\RecipesSupport\\RecipesSupport\\EdamamClient\\EdamamClient.csproj": {
+                "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\EdamamClient\\EdamamClient.csproj"
+              },
+              "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Infrastructure\\RecipesSuport.Infrastructure.csproj": {
+                "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Infrastructure\\RecipesSuport.Infrastructure.csproj"
+              },
+              "D:\\Projekty\\RecipesSupport\\RecipesSupport\\NutritionixClient\\NutritionixClient.csproj": {
+                "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\NutritionixClient\\NutritionixClient.csproj"
+              },
+              "D:\\Projekty\\RecipesSupport\\RecipesSupport\\SpoonacularClient\\SpoonacularClient.csproj": {
+                "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\SpoonacularClient\\SpoonacularClient.csproj"
+              },
+              "D:\\Projekty\\RecipesSupport\\RecipesSupport\\TheMealDbClient\\TheMealDbClient.csproj": {
+                "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\TheMealDbClient\\TheMealDbClient.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj",
+        "projectName": "RecipesSupport.Domain",
+        "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj",
+        "packagesPath": "C:\\Users\\48504\\.nuget\\packages\\",
+        "outputPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\48504\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projekty\\RecipesSupport\\RecipesSupport\\EdamamClient\\EdamamClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\EdamamClient\\EdamamClient.csproj",
+        "projectName": "EdamamClient",
+        "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\EdamamClient\\EdamamClient.csproj",
+        "packagesPath": "C:\\Users\\48504\\.nuget\\packages\\",
+        "outputPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\EdamamClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\48504\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Infrastructure\\RecipesSuport.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Infrastructure\\RecipesSuport.Infrastructure.csproj",
+        "projectName": "RecipesSuport.Infrastructure",
+        "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Infrastructure\\RecipesSuport.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\48504\\.nuget\\packages\\",
+        "outputPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\48504\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj": {
+                "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj"
+              },
+              "D:\\Projekty\\RecipesSupport\\RecipesSupport\\NutritionixClient\\NutritionixClient.csproj": {
+                "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\NutritionixClient\\NutritionixClient.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projekty\\RecipesSupport\\RecipesSupport\\NutritionixClient\\NutritionixClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\NutritionixClient\\NutritionixClient.csproj",
+        "projectName": "NutritionixClient",
+        "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\NutritionixClient\\NutritionixClient.csproj",
+        "packagesPath": "C:\\Users\\48504\\.nuget\\packages\\",
+        "outputPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\NutritionixClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\48504\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projekty\\RecipesSupport\\RecipesSupport\\RecipesSupport\\RecipesSupport.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\RecipesSupport\\RecipesSupport.csproj",
+        "projectName": "RecipesSupport",
+        "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\RecipesSupport\\RecipesSupport.csproj",
+        "packagesPath": "C:\\Users\\48504\\.nuget\\packages\\",
+        "outputPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\RecipesSupport\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\48504\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Application\\ReciesSupport.Application.csproj": {
+                "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Application\\ReciesSupport.Application.csproj"
+              },
+              "D:\\Projekty\\RecipesSupport\\RecipesSupport\\TheMealDbClient\\TheMealDbClient.csproj": {
+                "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\TheMealDbClient\\TheMealDbClient.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projekty\\RecipesSupport\\RecipesSupport\\SpoonacularClient\\SpoonacularClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\SpoonacularClient\\SpoonacularClient.csproj",
+        "projectName": "SpoonacularClient",
+        "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\SpoonacularClient\\SpoonacularClient.csproj",
+        "packagesPath": "C:\\Users\\48504\\.nuget\\packages\\",
+        "outputPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\SpoonacularClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\48504\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projekty\\RecipesSupport\\RecipesSupport\\TheMealDbClient\\TheMealDbClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\TheMealDbClient\\TheMealDbClient.csproj",
+        "projectName": "TheMealDbClient",
+        "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\TheMealDbClient\\TheMealDbClient.csproj",
+        "packagesPath": "C:\\Users\\48504\\.nuget\\packages\\",
+        "outputPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\TheMealDbClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\48504\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
