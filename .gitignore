@@ -420,3 +420,4 @@ FodyWeavers.xsd
 /TheMealDbClient/bin
 /SpoonacularClient/obj
 /SpoonacularClient/bin
+/.vs/RecipesSupport
