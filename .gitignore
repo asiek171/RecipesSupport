@@ -399,11 +399,24 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
+
+/.vs
+/.git
 /Application/bin
 /Application/obj
-/.vs
+/Domain/bin
+/Domain/obj
 /EdamamClient/obj
+/EdamamClient/bin
 /Infrastructure/obj
+/Infrastructure/bin
 /NutritionixClient/obj
+/NutritionixClient/bin
+/RecipesSupport/bin
+/RecipesSupport/obj
+/RecipesSupport.Tests/bin
+/RecipesSupport.Tests/obj
 /TheMealDbClient/obj
+/TheMealDbClient/bin
 /SpoonacularClient/obj
+/SpoonacularClient/bin
