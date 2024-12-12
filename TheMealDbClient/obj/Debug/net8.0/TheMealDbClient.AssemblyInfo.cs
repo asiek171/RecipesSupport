@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TheMealDbClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f00fb5959e88aa9e1ad91c18bfb9abd1426cbfec")]
 [assembly: System.Reflection.AssemblyProductAttribute("TheMealDbClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TheMealDbClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

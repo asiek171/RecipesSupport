@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projekty\\RecipesSupport\\RecipesSupport\\EdamamClient\\EdamamClient.csproj": {}
+    "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\EdamamClient\\EdamamClient.csproj": {}
   },
   "projects": {
-    "D:\\Projekty\\RecipesSupport\\RecipesSupport\\EdamamClient\\EdamamClient.csproj": {
+    "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\EdamamClient\\EdamamClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\EdamamClient\\EdamamClient.csproj",
+        "projectUniqueName": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\EdamamClient\\EdamamClient.csproj",
         "projectName": "EdamamClient",
-        "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\EdamamClient\\EdamamClient.csproj",
+        "projectPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\EdamamClient\\EdamamClient.csproj",
         "packagesPath": "C:\\Users\\48504\\.nuget\\packages\\",
-        "outputPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\EdamamClient\\obj\\",
+        "outputPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\EdamamClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\48504\\AppData\\Roaming\\NuGet\\NuGet.Config",

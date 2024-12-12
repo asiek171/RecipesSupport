@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/Xncc3NjLEU=",
+  "dgSpecHash": "EVzqpKQ4hpg=",
   "success": true,
-  "projectFilePath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\SpoonacularClient\\SpoonacularClient.csproj",
+  "projectFilePath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\SpoonacularClient\\SpoonacularClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\48504\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\48504\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

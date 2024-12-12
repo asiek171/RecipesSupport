@@ -790,11 +790,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\SpoonacularClient\\SpoonacularClient.csproj",
+      "projectUniqueName": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\SpoonacularClient\\SpoonacularClient.csproj",
       "projectName": "SpoonacularClient",
-      "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\SpoonacularClient\\SpoonacularClient.csproj",
+      "projectPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\SpoonacularClient\\SpoonacularClient.csproj",
       "packagesPath": "C:\\Users\\48504\\.nuget\\packages\\",
-      "outputPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\SpoonacularClient\\obj\\",
+      "outputPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\SpoonacularClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\48504\\AppData\\Roaming\\NuGet\\NuGet.Config",

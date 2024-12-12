@@ -2793,11 +2793,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Infrastructure\\RecipesSuport.Infrastructure.csproj",
+      "projectUniqueName": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Infrastructure\\RecipesSuport.Infrastructure.csproj",
       "projectName": "RecipesSuport.Infrastructure",
-      "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Infrastructure\\RecipesSuport.Infrastructure.csproj",
+      "projectPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Infrastructure\\RecipesSuport.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\48504\\.nuget\\packages\\",
-      "outputPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Infrastructure\\obj\\",
+      "outputPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\48504\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2815,11 +2815,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj": {
-              "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj"
+            "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj": {
+              "projectPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj"
             },
-            "D:\\Projekty\\RecipesSupport\\RecipesSupport\\NutritionixClient\\NutritionixClient.csproj": {
-              "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\NutritionixClient\\NutritionixClient.csproj"
+            "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\NutritionixClient\\NutritionixClient.csproj": {
+              "projectPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\NutritionixClient\\NutritionixClient.csproj"
             }
           }
         }

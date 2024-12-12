@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "flHPj0gKdeY=",
+  "dgSpecHash": "xCVAd6siJy0=",
   "success": true,
-  "projectFilePath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\RecipesSupport\\RecipesSupport.csproj",
+  "projectFilePath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\RecipesSupport\\RecipesSupport.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\48504\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\48504\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

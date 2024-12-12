@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projekty\\RecipesSupport\\RecipesSupport\\RecipesSupport\\RecipesSupport.csproj": {}
+    "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\RecipesSupport\\RecipesSupport.csproj": {}
   },
   "projects": {
-    "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Application\\ReciesSupport.Application.csproj": {
+    "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Application\\ReciesSupport.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Application\\ReciesSupport.Application.csproj",
+        "projectUniqueName": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Application\\ReciesSupport.Application.csproj",
         "projectName": "ReciesSupport.Application",
-        "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Application\\ReciesSupport.Application.csproj",
+        "projectPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Application\\ReciesSupport.Application.csproj",
         "packagesPath": "C:\\Users\\48504\\.nuget\\packages\\",
-        "outputPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Application\\obj\\",
+        "outputPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\48504\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,23 +29,23 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj": {
-                "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj"
+              "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj": {
+                "projectPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj"
               },
-              "D:\\Projekty\\RecipesSupport\\RecipesSupport\\EdamamClient\\EdamamClient.csproj": {
-                "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\EdamamClient\\EdamamClient.csproj"
+              "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\EdamamClient\\EdamamClient.csproj": {
+                "projectPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\EdamamClient\\EdamamClient.csproj"
               },
-              "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Infrastructure\\RecipesSuport.Infrastructure.csproj": {
-                "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Infrastructure\\RecipesSuport.Infrastructure.csproj"
+              "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Infrastructure\\RecipesSuport.Infrastructure.csproj": {
+                "projectPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Infrastructure\\RecipesSuport.Infrastructure.csproj"
               },
-              "D:\\Projekty\\RecipesSupport\\RecipesSupport\\NutritionixClient\\NutritionixClient.csproj": {
-                "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\NutritionixClient\\NutritionixClient.csproj"
+              "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\NutritionixClient\\NutritionixClient.csproj": {
+                "projectPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\NutritionixClient\\NutritionixClient.csproj"
               },
-              "D:\\Projekty\\RecipesSupport\\RecipesSupport\\SpoonacularClient\\SpoonacularClient.csproj": {
-                "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\SpoonacularClient\\SpoonacularClient.csproj"
+              "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\SpoonacularClient\\SpoonacularClient.csproj": {
+                "projectPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\SpoonacularClient\\SpoonacularClient.csproj"
               },
-              "D:\\Projekty\\RecipesSupport\\RecipesSupport\\TheMealDbClient\\TheMealDbClient.csproj": {
-                "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\TheMealDbClient\\TheMealDbClient.csproj"
+              "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\TheMealDbClient\\TheMealDbClient.csproj": {
+                "projectPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\TheMealDbClient\\TheMealDbClient.csproj"
               }
             }
           }
@@ -90,14 +90,14 @@
         }
       }
     },
-    "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj": {
+    "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj",
+        "projectUniqueName": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj",
         "projectName": "RecipesSupport.Domain",
-        "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj",
+        "projectPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj",
         "packagesPath": "C:\\Users\\48504\\.nuget\\packages\\",
-        "outputPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Domain\\obj\\",
+        "outputPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\48504\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -167,14 +167,14 @@
         }
       }
     },
-    "D:\\Projekty\\RecipesSupport\\RecipesSupport\\EdamamClient\\EdamamClient.csproj": {
+    "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\EdamamClient\\EdamamClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\EdamamClient\\EdamamClient.csproj",
+        "projectUniqueName": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\EdamamClient\\EdamamClient.csproj",
         "projectName": "EdamamClient",
-        "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\EdamamClient\\EdamamClient.csproj",
+        "projectPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\EdamamClient\\EdamamClient.csproj",
         "packagesPath": "C:\\Users\\48504\\.nuget\\packages\\",
-        "outputPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\EdamamClient\\obj\\",
+        "outputPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\EdamamClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\48504\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -234,14 +234,14 @@
         }
       }
     },
-    "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Infrastructure\\RecipesSuport.Infrastructure.csproj": {
+    "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Infrastructure\\RecipesSuport.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Infrastructure\\RecipesSuport.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Infrastructure\\RecipesSuport.Infrastructure.csproj",
         "projectName": "RecipesSuport.Infrastructure",
-        "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Infrastructure\\RecipesSuport.Infrastructure.csproj",
+        "projectPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Infrastructure\\RecipesSuport.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\48504\\.nuget\\packages\\",
-        "outputPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Infrastructure\\obj\\",
+        "outputPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\48504\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -259,11 +259,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj": {
-                "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj"
+              "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj": {
+                "projectPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj"
               },
-              "D:\\Projekty\\RecipesSupport\\RecipesSupport\\NutritionixClient\\NutritionixClient.csproj": {
-                "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\NutritionixClient\\NutritionixClient.csproj"
+              "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\NutritionixClient\\NutritionixClient.csproj": {
+                "projectPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\NutritionixClient\\NutritionixClient.csproj"
               }
             }
           }
@@ -308,14 +308,14 @@
         }
       }
     },
-    "D:\\Projekty\\RecipesSupport\\RecipesSupport\\NutritionixClient\\NutritionixClient.csproj": {
+    "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\NutritionixClient\\NutritionixClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\NutritionixClient\\NutritionixClient.csproj",
+        "projectUniqueName": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\NutritionixClient\\NutritionixClient.csproj",
         "projectName": "NutritionixClient",
-        "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\NutritionixClient\\NutritionixClient.csproj",
+        "projectPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\NutritionixClient\\NutritionixClient.csproj",
         "packagesPath": "C:\\Users\\48504\\.nuget\\packages\\",
-        "outputPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\NutritionixClient\\obj\\",
+        "outputPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\NutritionixClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\48504\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -379,14 +379,14 @@
         }
       }
     },
-    "D:\\Projekty\\RecipesSupport\\RecipesSupport\\RecipesSupport\\RecipesSupport.csproj": {
+    "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\RecipesSupport\\RecipesSupport.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\RecipesSupport\\RecipesSupport.csproj",
+        "projectUniqueName": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\RecipesSupport\\RecipesSupport.csproj",
         "projectName": "RecipesSupport",
-        "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\RecipesSupport\\RecipesSupport.csproj",
+        "projectPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\RecipesSupport\\RecipesSupport.csproj",
         "packagesPath": "C:\\Users\\48504\\.nuget\\packages\\",
-        "outputPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\RecipesSupport\\obj\\",
+        "outputPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\RecipesSupport\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\48504\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -404,11 +404,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Application\\ReciesSupport.Application.csproj": {
-                "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Application\\ReciesSupport.Application.csproj"
+              "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Application\\ReciesSupport.Application.csproj": {
+                "projectPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Application\\ReciesSupport.Application.csproj"
               },
-              "D:\\Projekty\\RecipesSupport\\RecipesSupport\\TheMealDbClient\\TheMealDbClient.csproj": {
-                "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\TheMealDbClient\\TheMealDbClient.csproj"
+              "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\TheMealDbClient\\TheMealDbClient.csproj": {
+                "projectPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\TheMealDbClient\\TheMealDbClient.csproj"
               }
             }
           }
@@ -466,14 +466,14 @@
         }
       }
     },
-    "D:\\Projekty\\RecipesSupport\\RecipesSupport\\SpoonacularClient\\SpoonacularClient.csproj": {
+    "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\SpoonacularClient\\SpoonacularClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\SpoonacularClient\\SpoonacularClient.csproj",
+        "projectUniqueName": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\SpoonacularClient\\SpoonacularClient.csproj",
         "projectName": "SpoonacularClient",
-        "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\SpoonacularClient\\SpoonacularClient.csproj",
+        "projectPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\SpoonacularClient\\SpoonacularClient.csproj",
         "packagesPath": "C:\\Users\\48504\\.nuget\\packages\\",
-        "outputPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\SpoonacularClient\\obj\\",
+        "outputPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\SpoonacularClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\48504\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -541,14 +541,14 @@
         }
       }
     },
-    "D:\\Projekty\\RecipesSupport\\RecipesSupport\\TheMealDbClient\\TheMealDbClient.csproj": {
+    "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\TheMealDbClient\\TheMealDbClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\TheMealDbClient\\TheMealDbClient.csproj",
+        "projectUniqueName": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\TheMealDbClient\\TheMealDbClient.csproj",
         "projectName": "TheMealDbClient",
-        "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\TheMealDbClient\\TheMealDbClient.csproj",
+        "projectPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\TheMealDbClient\\TheMealDbClient.csproj",
         "packagesPath": "C:\\Users\\48504\\.nuget\\packages\\",
-        "outputPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\TheMealDbClient\\obj\\",
+        "outputPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\TheMealDbClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\48504\\AppData\\Roaming\\NuGet\\NuGet.Config",

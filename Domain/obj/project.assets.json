@@ -4045,11 +4045,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj",
+      "projectUniqueName": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj",
       "projectName": "RecipesSupport.Domain",
-      "projectPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj",
+      "projectPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Domain\\RecipesSupport.Domain.csproj",
       "packagesPath": "C:\\Users\\48504\\.nuget\\packages\\",
-      "outputPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\Domain\\obj\\",
+      "outputPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\48504\\AppData\\Roaming\\NuGet\\NuGet.Config",

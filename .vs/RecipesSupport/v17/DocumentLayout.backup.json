@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\",
+  "WorkspaceRootPath": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E29F6581-303D-470F-9925-BF608A75D6D6}|RecipesSupport\\RecipesSupport.csproj|d:\\projekty\\recipessupport\\recipessupport\\recipessupport\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{21BAF58B-6BA0-42BF-9879-A81DA6E61949}|RecipesSupport.Tests\\RecipesSupport.Tests.csproj|d:\\projekty\\recipessupport2\\recipessupport\\recipessupport.tests\\services\\recipeservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BAF58B-6BA0-42BF-9879-A81DA6E61949}|RecipesSupport.Tests\\RecipesSupport.Tests.csproj|solutionrelative:recipessupport.tests\\services\\recipeservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E29F6581-303D-470F-9925-BF608A75D6D6}|RecipesSupport\\RecipesSupport.csproj|d:\\projekty\\recipessupport2\\recipessupport\\recipessupport\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E29F6581-303D-470F-9925-BF608A75D6D6}|RecipesSupport\\RecipesSupport.csproj|solutionrelative:recipessupport\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E29F6581-303D-470F-9925-BF608A75D6D6}|RecipesSupport\\RecipesSupport.csproj|d:\\projekty\\recipessupport\\recipessupport\\recipessupport\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E29F6581-303D-470F-9925-BF608A75D6D6}|RecipesSupport\\RecipesSupport.csproj|d:\\projekty\\recipessupport2\\recipessupport\\recipessupport\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E29F6581-303D-470F-9925-BF608A75D6D6}|RecipesSupport\\RecipesSupport.csproj|solutionrelative:recipessupport\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,28 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RecipeServiceTests.cs",
+              "DocumentMoniker": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\RecipesSupport.Tests\\Services\\RecipeServiceTests.cs",
+              "RelativeDocumentMoniker": "RecipesSupport.Tests\\Services\\RecipeServiceTests.cs",
+              "ToolTip": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\RecipesSupport.Tests\\Services\\RecipeServiceTests.cs",
+              "RelativeToolTip": "RecipesSupport.Tests\\Services\\RecipeServiceTests.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T22:04:16.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ServiceCollectionExtensions.cs",
-              "DocumentMoniker": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\RecipesSupport\\Extensions\\ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\RecipesSupport\\Extensions\\ServiceCollectionExtensions.cs",
               "RelativeDocumentMoniker": "RecipesSupport\\Extensions\\ServiceCollectionExtensions.cs",
-              "ToolTip": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\RecipesSupport\\Extensions\\ServiceCollectionExtensions.cs*",
-              "RelativeToolTip": "RecipesSupport\\Extensions\\ServiceCollectionExtensions.cs*",
-              "ViewState": "AgIAADIAAAAAAAAAAAAewEUAAAA5AAAAAAAAAA==",
+              "ToolTip": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\RecipesSupport\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "RecipesSupport\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAUwEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-09T21:45:31.917Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\RecipesSupport\\Program.cs",
+              "DocumentMoniker": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\RecipesSupport\\Program.cs",
               "RelativeDocumentMoniker": "RecipesSupport\\Program.cs",
-              "ToolTip": "D:\\Projekty\\RecipesSupport\\RecipesSupport\\RecipesSupport\\Program.cs",
+              "ToolTip": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\RecipesSupport\\Program.cs",
               "RelativeToolTip": "RecipesSupport\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAcwA0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T22:48:06.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T22:48:06.416Z"
             }
           ]
         }
