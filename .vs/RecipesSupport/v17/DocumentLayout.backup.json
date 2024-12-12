@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "RecipesSupport.Tests\\Services\\RecipeServiceTests.cs",
               "ToolTip": "D:\\Projekty\\RecipesSupport2\\RecipesSupport\\RecipesSupport.Tests\\Services\\RecipeServiceTests.cs",
               "RelativeToolTip": "RecipesSupport.Tests\\Services\\RecipeServiceTests.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T22:04:16.198Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "RecipesSupport\\Extensions\\ServiceCollectionExtensions.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAUwEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T21:45:31.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T21:45:31.917Z"
             },
             {
               "$type": "Document",
