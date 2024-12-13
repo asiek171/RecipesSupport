@@ -12,9 +12,23 @@ on:
 
 jobs:
   test:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     steps:
+      # Krok 1: Checkout kodu
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Krok 2: Instalacja .NET
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 8.0.0 # Użyj odpowiedniej wersji .NET dla swojego projektu
+
+      # Krok 3: Przygotowanie zależności
+      - name: Restore dependencies
+        run: dotnet restore
+        
       # Krok 1: Budowanie projektu
       - name: Build project
         run: dotnet build --no-restore --configuration Release
