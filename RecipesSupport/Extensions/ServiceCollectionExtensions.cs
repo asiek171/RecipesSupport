@@ -64,14 +64,14 @@ namespace RecipesSupport.Extensions
 
         public static IServiceCollection AddStrategy(this IServiceCollection services)
         {
-
+            
             services.AddScoped<IntegrationStrategyFactory>();
             services.AddScoped<IntegrationContext>();
 
-            services.AddScoped<IIntegrationStrategy, SpoonacularStrategy>();
-            services.AddScoped<IIntegrationStrategy,NutritionixStrategy>();
+          //  services.AddScoped<IIntegrationStrategy,SpoonacularStrategy>();
+           // services.AddScoped<IIntegrationStrategy,NutritionixStrategy>();
             services.AddScoped<IIntegrationStrategy,EdamamStrategy>();
-            services.AddScoped<IIntegrationStrategy,TheMealDbStrategy>();
+         //   services.AddScoped<IIntegrationStrategy,TheMealDbStrategy>();
 
             return services;
         }

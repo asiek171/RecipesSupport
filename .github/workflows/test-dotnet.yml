@@ -3,39 +3,27 @@ name: Run Tests
 on:
   push:
     branches:
-      - main
+      - develop
+      - master
   pull_request:
     branches:
-      - main
+      - develop
+      - master
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
-      # Krok 1: Checkout kodu
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      # Krok 2: Instalacja .NET
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: 8.0.x # Użyj odpowiedniej wersji .NET dla swojego projektu
-
-      # Krok 3: Przygotowanie zależności
-      - name: Restore dependencies
-        run: dotnet restore
-
-      # Krok 4: Budowanie projektu
+      # Krok 1: Budowanie projektu
       - name: Build project
         run: dotnet build --no-restore --configuration Release
 
-      # Krok 5: Uruchamianie testów
-      - name: Run tests
-        run: dotnet test --no-build --configuration Release --logger "trx;LogFileName=test-results.trx"
+      # Krok 2: uuchoninie testów
+      - name: RecipesSupport.Tests
+        run: dotnet test RecipesSupport.Tests --no-build --configuration Release --logger "trx;LogFileName=test-results.trx"
 
-      # Krok 6: Publikacja wyników testów (opcjonalne)
+      # Krok 3: Publikacja wyników testów (opcjonalne)
       - name: Upload test results
         uses: actions/upload-artifact@v3
         with:
