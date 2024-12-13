@@ -23,12 +23,12 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: 8.0.0 # Użyj odpowiedniej wersji .NET dla swojego projektu
+          dotnet-version: 8.0.x # Użyj odpowiedniej wersji .NET dla swojego projektu
 
       # Krok 3: Przygotowanie zależności
       - name: Restore dependencies
         run: dotnet restore
-        
+
       # Krok 1: Budowanie projektu
       - name: Build project
         run: dotnet build --no-restore --configuration Release
