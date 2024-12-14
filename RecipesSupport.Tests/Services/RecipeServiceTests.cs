@@ -10,7 +10,6 @@ namespace RecipesSupport.Tests.Services
     {
         private readonly Mock<IMediator> _mediatr;
         private readonly Mock<IntegrationStrategyFactory> _factory;
-        private readonly Mock<IntegrationContext> _context;
 
         private RecipeService _service;
 
@@ -18,13 +17,12 @@ namespace RecipesSupport.Tests.Services
         {
             _mediatr = new Mock<IMediator>();
             _factory = new Mock<IntegrationStrategyFactory>();
-            _context = new Mock<IntegrationContext>();
 
-          //  _service = new RecipeService(_factory.Object, _context.Object, _mediatr.Object); 
+            _service = new RecipeService(_factory.Object, _mediatr.Object);
         }
 
         [Fact]
-        public void GetRecipe()
+        public void Test_test()
         {
             //Arrange
             //Act

@@ -1,16 +1,14 @@
-﻿using Application.Services.Interfaces;
-using Application.Services;
-using SpoonacularClient;
-using Microsoft.Extensions.DependencyInjection;
-using NutritionixClient.Configuration;
-using NutritionixClient;
+﻿using Application.Services;
+using Application.Services.Interfaces;
 using Application.Services.Strategy;
-using TheMealDbClient.Configuration;
-using Application.Services.Strategy.Interfaces;
 using Application.Services.Strategy.Factory;
-using TheMealDbClient;
-using EdamamClient.Configuration;
 using EdamamClient;
+using EdamamClient.Configuration;
+using NutritionixClient;
+using NutritionixClient.Configuration;
+using SpoonacularClient;
+using TheMealDbClient;
+using TheMealDbClient.Configuration;
 
 namespace RecipesSupport.Extensions
 {
@@ -28,6 +26,7 @@ namespace RecipesSupport.Extensions
         {
             services.AddScoped<IRecipeService, RecipeService>();
             services.AddScoped<IIngredientService, IngredientService>();
+
 
             return services;
         }
@@ -65,13 +64,13 @@ namespace RecipesSupport.Extensions
         public static IServiceCollection AddStrategy(this IServiceCollection services)
         {
             
-            services.AddScoped<IntegrationStrategyFactory>();
-            services.AddScoped<IntegrationContext>();
 
-          //  services.AddScoped<IIntegrationStrategy,SpoonacularStrategy>();
-           // services.AddScoped<IIntegrationStrategy,NutritionixStrategy>();
-            services.AddScoped<IIntegrationStrategy,EdamamStrategy>();
-         //   services.AddScoped<IIntegrationStrategy,TheMealDbStrategy>();
+            services.AddScoped<SpoonacularStrategy>();
+            services.AddScoped<NutritionixStrategy>();
+            services.AddScoped<EdamamStrategy>();
+            services.AddScoped<TheMealDbStrategy>();
+
+            services.AddScoped<IntegrationStrategyFactory>();
 
             return services;
         }

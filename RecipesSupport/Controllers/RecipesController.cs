@@ -1,5 +1,8 @@
 using Application.Services.Interfaces;
+using Application.Services.Strategy.Factory;
+using Application.Services.Strategy.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using System;
 
 namespace RecipesSupport.Controllers
 {
@@ -9,10 +12,15 @@ namespace RecipesSupport.Controllers
     {
         private readonly ILogger<RecipesController> _logger;
         private readonly IRecipeService _recipeService;
+        private readonly IntegrationStrategyFactory _strategyFactory;
 
-        public RecipesController(IRecipeService recipeService, ILogger<RecipesController> logger)
+        public RecipesController(
+           IntegrationStrategyFactory strategyFactory,
+           IRecipeService service,
+             ILogger<RecipesController> logger)
         {
-            _recipeService = recipeService;
+            _recipeService = service;
+            _strategyFactory = strategyFactory;
             _logger = logger;
         }
 
@@ -20,14 +28,15 @@ namespace RecipesSupport.Controllers
         public async Task<IActionResult> SearchByIngredients(string ingredients)
         {
             var result = await _recipeService.GetByIngredients(ingredients);
+
             return Ok(result);
         }
 
         [HttpGet("getRecipeInformation")]
         public IActionResult GetRecipeInformation([FromQuery] int recipeId)
         {
-            var result = _recipeService.GetByRecipeId(recipeId);
-            return Ok(result);
+            //   var result = _recipeService.GetByRecipeId(recipeId);
+            return Ok();//result);
         }
 
     }

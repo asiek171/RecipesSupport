@@ -9,9 +9,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddCustomCashing();
-builder.Services.AddExternalIntegrationServices(builder.Configuration);
-builder.Services.AddApplicationServices();
 builder.Services.AddStrategy();
+builder.Services.AddApplicationServices();
+builder.Services.AddExternalIntegrationServices(builder.Configuration);
 
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(AddIngredientCommandHandler).Assembly));
 
@@ -30,7 +30,10 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(options =>
+    {
+        options.ConfigObject.TryItOutEnabled = true;
+    });
 }
 
 app.UseMiddleware<RequestTimingMiddleware>();
