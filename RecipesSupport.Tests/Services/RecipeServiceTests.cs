@@ -9,14 +9,14 @@ namespace RecipesSupport.Tests.Services
     public class RecipeServiceTests
     {
         private readonly Mock<IMediator> _mediatr;
-        private readonly Mock<IntegrationStrategyFactory> _factory;
+        private readonly Mock<IIntegrationFactory> _factory;
 
         private RecipeService _service;
 
         public RecipeServiceTests()
         {
             _mediatr = new Mock<IMediator>();
-            _factory = new Mock<IntegrationStrategyFactory>();
+            _factory = new Mock<IIntegrationFactory>();
 
             _service = new RecipeService(_factory.Object, _mediatr.Object);
         }

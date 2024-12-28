@@ -1,5 +1,6 @@
 ﻿using Application.Services.Interfaces;
 using Application.Services.Strategy.Factory;
+using Application.Services.Strategy.Interfaces;
 using MediatR;
 
 namespace Application.Services
@@ -8,8 +9,8 @@ namespace Application.Services
     {
         private readonly IMediator _mediator;
 
-        private readonly IntegrationStrategyFactory _strategyFactory;
-        public RecipeService(IntegrationStrategyFactory strategyFactory,
+        private readonly IIntegrationFactory _strategyFactory;
+        public RecipeService(IIntegrationFactory strategyFactory,
                              IMediator mediator)
         {
             _strategyFactory = strategyFactory;

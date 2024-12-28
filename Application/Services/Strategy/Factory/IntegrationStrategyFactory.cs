@@ -4,7 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Application.Services.Strategy.Factory
 {
-    public class IntegrationStrategyFactory
+    public class IntegrationStrategyFactory : IIntegrationFactory
     {
         private readonly IServiceProvider _serviceProvider;
         public IntegrationStrategyFactory(IServiceProvider serviceProvider)
@@ -14,6 +14,8 @@ namespace Application.Services.Strategy.Factory
 
         public IIntegrationStrategy GetStrategy(SystemType systemType)
         {
+            var client = _serviceProvider.GetRequiredService<SpoonacularStrategy>();
+
             return systemType switch
             {
                 SystemType.Spoonacular => _serviceProvider.GetRequiredService<SpoonacularStrategy>(),
