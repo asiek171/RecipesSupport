@@ -2,6 +2,7 @@
 using Application.Services.Interfaces;
 using Application.Services.Strategy;
 using Application.Services.Strategy.Factory;
+using Application.Services.Strategy.Interfaces;
 using EdamamClient;
 using EdamamClient.Configuration;
 using NutritionixClient;
@@ -70,7 +71,7 @@ namespace RecipesSupport.Extensions
             services.AddScoped<EdamamStrategy>();
             services.AddScoped<TheMealDbStrategy>();
 
-            services.AddScoped<IntegrationStrategyFactory>();
+            services.AddScoped<IIntegrationFactory, IntegrationStrategyFactory>();
 
             return services;
         }
