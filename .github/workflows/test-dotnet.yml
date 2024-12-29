@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - develop
-      - master
+      - main
   pull_request:
     branches:
       - develop
-      - master
+      - main
 
 jobs:
   test:
@@ -34,8 +34,8 @@ jobs:
         run: dotnet build --no-restore --configuration Release
 
       # Krok 2: uuchoninie testów
-      - name: RecipesSupport.Tests
-        run: dotnet test RecipesSupport.Tests --no-build --configuration Release --logger "trx;LogFileName=test-results.trx"
+      - name: RecipesSupport.Tests.Unit
+        run: dotnet test RecipesSupport.Tests.Unit --no-build --configuration Release --logger "trx;LogFileName=test-results.trx"
 
       # Krok 3: Publikacja wyników testów (opcjonalne)
       - name: Upload test results
