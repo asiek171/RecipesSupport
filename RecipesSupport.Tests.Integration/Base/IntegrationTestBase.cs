@@ -25,8 +25,8 @@ namespace RecipesSupport.Tests.Integration.Base
                             services.Remove(descriptor);
 
                         // Dodanie in-memory database dla testów
-                        //services.AddDbContext<RecipesSupportDbContext>(options =>
-                        //    options.UseInMemoryDatabase("RecipeDb_TST"));
+                        services.AddDbContext<RecipesSupportDbContext>(options =>
+                            options.UseInMemoryDatabase("RecipeDb_TST"));
                     });
                 });
 
