@@ -12,15 +12,12 @@ namespace RecipesSupport.Controllers
     {
         private readonly ILogger<RecipesController> _logger;
         private readonly IRecipeService _recipeService;
-        private readonly IntegrationStrategyFactory _strategyFactory;
 
         public RecipesController(
-           IntegrationStrategyFactory strategyFactory,
            IRecipeService service,
-             ILogger<RecipesController> logger)
+           ILogger<RecipesController> logger)
         {
             _recipeService = service;
-            _strategyFactory = strategyFactory;
             _logger = logger;
         }
 

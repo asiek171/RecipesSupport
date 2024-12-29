@@ -29,7 +29,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{63EA6084-E6A6-4CFB-9C8C-DC12BD496077}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipesSupport.Tests", "RecipesSupport.Tests\RecipesSupport.Tests.csproj", "{21BAF58B-6BA0-42BF-9879-A81DA6E61949}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipesSupport.Tests.Unit", "RecipesSupport.Tests\RecipesSupport.Tests.Unit.csproj", "{21BAF58B-6BA0-42BF-9879-A81DA6E61949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipesSupport.Tests.Integration", "IntegrationTests\RecipesSupport.Tests.Integration.csproj", "{EED72122-4F59-4D83-A160-E0CA32343038}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,10 @@ Global
 		{21BAF58B-6BA0-42BF-9879-A81DA6E61949}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21BAF58B-6BA0-42BF-9879-A81DA6E61949}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21BAF58B-6BA0-42BF-9879-A81DA6E61949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EED72122-4F59-4D83-A160-E0CA32343038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EED72122-4F59-4D83-A160-E0CA32343038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EED72122-4F59-4D83-A160-E0CA32343038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EED72122-4F59-4D83-A160-E0CA32343038}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,6 +93,7 @@ Global
 		{828361BA-EFDE-4C7A-8A03-359F4472D79A} = {7A5F3AE1-DBD9-4BEE-B721-26690A4ACB12}
 		{7A5F3AE1-DBD9-4BEE-B721-26690A4ACB12} = {820ECA94-5F5F-460D-AB5F-787F38164657}
 		{21BAF58B-6BA0-42BF-9879-A81DA6E61949} = {63EA6084-E6A6-4CFB-9C8C-DC12BD496077}
+		{EED72122-4F59-4D83-A160-E0CA32343038} = {63EA6084-E6A6-4CFB-9C8C-DC12BD496077}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {537381B0-E540-4B0E-AEAF-42A5B9585030}
