@@ -1,8 +1,12 @@
-﻿using Application.Services;
+﻿using Application.Enums;
+using Application.Services;
+using Application.Services.Strategy;
 using Application.Services.Strategy.Factory;
 using Application.Services.Strategy.Interfaces;
+using EdamamClient;
 using MediatR;
 using Moq;
+using System.Runtime.CompilerServices;
 
 namespace RecipesSupport.Tests.Services
 {
@@ -22,12 +26,13 @@ namespace RecipesSupport.Tests.Services
         }
 
         [Fact]
-        public void Test_test()
+        public async Task Test_test()
         {
             //Arrange
             //Act
             var result = 1 + 1;
-            //var result = await _service.GetByRecipeId(1);
+            //    _factory.Setup(_ => _.GetStrategy(It.IsAny<SystemType>())).Returns(new EdamamStrategy(It.IsAny<EdamamService>()));
+            //    var result = await _service.GetByIngredients("butter");
             //Assert
             Assert.Equal(2, result);
         }

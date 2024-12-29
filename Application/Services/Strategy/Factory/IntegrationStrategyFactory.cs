@@ -14,7 +14,7 @@ namespace Application.Services.Strategy.Factory
 
         public IIntegrationStrategy GetStrategy(SystemType systemType)
         {
-            var client = _serviceProvider.GetRequiredService<SpoonacularStrategy>();
+            var client = _serviceProvider.GetRequiredService<EdamamStrategy>();
 
             return systemType switch
             {
@@ -22,7 +22,7 @@ namespace Application.Services.Strategy.Factory
                 SystemType.Nutritionix => _serviceProvider.GetRequiredService<NutritionixStrategy>(),
                 SystemType.Edamam => _serviceProvider.GetRequiredService<EdamamStrategy>(),
                 SystemType.TheMealDb => _serviceProvider.GetRequiredService<TheMealDbStrategy>(),
-                _ => throw new ArgumentException("Not implemented tpe of integration")
+                _ => throw new ArgumentException("Not implemented type of integration")
             };
         }
     }
