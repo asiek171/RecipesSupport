@@ -1,7 +1,7 @@
 using RecipesSupport.Tests.Integration.Base;
 using Xunit;
 
-namespace IntegrationTests
+namespace RecipesSupport.Tests.Integration.Controllers
 {
     public class RecipesControllerTests : IntegrationTestBase
     {
