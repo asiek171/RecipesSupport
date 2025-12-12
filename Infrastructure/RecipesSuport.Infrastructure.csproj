@@ -15,8 +15,4 @@
     <ProjectReference Include="..\NutritionixClient\NutritionixClient.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Data\Repositories\" />
-  </ItemGroup>
-
 </Project>

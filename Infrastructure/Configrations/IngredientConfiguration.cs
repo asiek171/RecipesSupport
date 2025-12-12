@@ -13,9 +13,9 @@ namespace Domain.Configrations
 
             builder.Property(r => r.Name);
 
-            builder.Property(r => r.Quantity);
+            builder.Property(r => r.NormalizedName);
 
-            builder.Property(r => r.Type);
+            builder.Property(r => r.Category);
         }
     }
 }

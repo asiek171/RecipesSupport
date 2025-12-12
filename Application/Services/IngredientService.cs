@@ -14,8 +14,15 @@ namespace Application.Services
         }
         public async Task<bool> Add(Ingredient model)
         {
-            var result = await _mediator.Send(new AddIngredientCommand(model));
-            return result;
+            try
+            {
+                await _mediator.Send(new AddIngredientCommand(model));
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+            return true;
         }
 
         public List<Ingredient> Get()

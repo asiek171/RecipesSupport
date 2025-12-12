@@ -3,7 +3,7 @@
     public class Ingredient
     {
         public string? Name { get; set; }
-        public string? Type { get; set; }
-        public double Quantity { get; set; }
+        public string? Category { get; set; }
+        public required string NormalizedName { get; set; }
     }
 }
