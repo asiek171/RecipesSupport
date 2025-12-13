@@ -1,10 +1,5 @@
 ﻿using ReciesSupport.Application.Services.Interfaces;
 using RecipesSuport.Infrastructure.Data.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ReciesSupport.Application.Services
 {
@@ -32,6 +27,9 @@ namespace ReciesSupport.Application.Services
                     recipe.Servings,
                     newSerwings
                 );
+
+
+            // TODO: konwersion to better units if needed
 
                 scaledIngredients.Add(new ScaledIngredient(
                     ingredient.Ingredient!.Name ?? "Unknown Ingredient",
