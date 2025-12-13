@@ -29,9 +29,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{63EA6084-E6A6-4CFB-9C8C-DC12BD496077}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipesSupport.Tests.Unit", "RecipesSupport.Tests\RecipesSupport.Tests.Unit.csproj", "{21BAF58B-6BA0-42BF-9879-A81DA6E61949}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipesSupport.Tests.Unit", "RecipesSupport.Tests.Unit\RecipesSupport.Tests.Unit.csproj", "{21BAF58B-6BA0-42BF-9879-A81DA6E61949}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipesSupport.Tests.Integration", "IntegrationTests\RecipesSupport.Tests.Integration.csproj", "{EED72122-4F59-4D83-A160-E0CA32343038}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipesSupport.Tests.Integration", "RecipesSupport.Tests.Integration\RecipesSupport.Tests.Integration.csproj", "{EED72122-4F59-4D83-A160-E0CA32343038}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

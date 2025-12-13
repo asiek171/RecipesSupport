@@ -10,11 +10,12 @@ namespace Domain.Configrations
         {
             builder.HasKey(r => r.Id);
 
-            builder.Property(r => r.Name);
+            builder.Property(r => r.Title);
 
-            builder.Property(r => r.Category);
+            builder.Property(r => r.PrepTime);
+            builder.Property(r => r.SourceUrl);
 
-            builder.Property(r => r.Description);
+            builder.Property(r => r.Instructions);
 
             builder.HasMany(r => r.Ingredients)
                 .WithOne()

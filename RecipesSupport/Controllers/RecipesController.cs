@@ -1,8 +1,5 @@
 using Application.Services.Interfaces;
-using Application.Services.Strategy.Factory;
-using Application.Services.Strategy.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using System;
 
 namespace RecipesSupport.Controllers
 {
@@ -14,8 +11,8 @@ namespace RecipesSupport.Controllers
         private readonly IRecipeService _recipeService;
 
         public RecipesController(
-           IRecipeService service,
-           ILogger<RecipesController> logger)
+            IRecipeService service,
+            ILogger<RecipesController> logger)
         {
             _recipeService = service;
             _logger = logger;

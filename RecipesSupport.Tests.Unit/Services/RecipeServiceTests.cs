@@ -1,14 +1,9 @@
-﻿using Application.Enums;
-using Application.Services;
-using Application.Services.Strategy;
-using Application.Services.Strategy.Factory;
+﻿using Application.Services;
 using Application.Services.Strategy.Interfaces;
-using EdamamClient;
 using MediatR;
 using Moq;
-using System.Runtime.CompilerServices;
 
-namespace RecipesSupport.Tests.Services
+namespace RecipesSupport.Tests.Unit.Services
 {
     public class RecipeServiceTests
     {

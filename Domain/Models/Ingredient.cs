@@ -3,7 +3,7 @@
     public class Ingredient : BaseEntity
     {
         public string? Name { get; set; }
-        public string? Type { get; set; }
-        public double Quantity { get; set; }
+        public string? NormalizedName { get; set; }
+        public string? Category { get; set; }
     }
 }

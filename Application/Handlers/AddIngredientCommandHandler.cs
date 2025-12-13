@@ -4,8 +4,8 @@ using MediatR;
 
 namespace Application.Handlers
 {
-    public record AddIngredientCommand(Ingredient model) : IRequest<bool>;
-    public class AddIngredientCommandHandler : IRequestHandler<AddIngredientCommand, bool>
+    public record AddIngredientCommand(Ingredient model) : IRequest;
+    public class AddIngredientCommandHandler : IRequestHandler<AddIngredientCommand>
     {
         private readonly RecipesSupportDbContext _DbContext;
         public AddIngredientCommandHandler(RecipesSupportDbContext dbContext)
@@ -13,18 +13,16 @@ namespace Application.Handlers
             _DbContext = dbContext;
         }
 
-        public Task<bool> Handle(AddIngredientCommand request, CancellationToken cancellationToken)
+        public async Task Handle(AddIngredientCommand request, CancellationToken cancellationToken)
         {
              _DbContext.Ingredients.Add(new Domain.Models.Ingredient
             {
                 Name = request.model.Name,
-                Quantity = request.model.Quantity,
-                Type = request.model.Type
+                NormalizedName = request.model.NormalizedName,
+                Category = request.model.Category,
             });
 
-            _DbContext.SaveChanges();
-
-            return Task.FromResult(true);
+            await _DbContext.SaveChangesAsync();
         }
     }
 }
