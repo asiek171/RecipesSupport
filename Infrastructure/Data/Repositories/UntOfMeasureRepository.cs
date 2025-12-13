@@ -1,19 +1,44 @@
-﻿namespace RecipesSuport.Infrastructure.Data.Repositories
+﻿using Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using ReciesSupport.Application.Mappers;
+using ReciesSupport.Application.Models;
+using ReciesSupport.Application.Interfaces;
+
+namespace RecipesSuport.Infrastructure.Data.Repositories;
+
+public class UntOfMeasureRepository(RecipesSupportDbContext context) : IUnitOfMeasureRepository
 {
-    public interface IUnitOfMeasureRepository
+    private static readonly Dictionary<string, UnitOfMeasureDTO> _uomCache = new();
+    public async Task<UnitOfMeasureDTO> GetByUnitNameAsync(string unitName)
     {
-        /// <summary>
-        /// Gets a unit of measure by its name. Within the context of recipe scaling.
-        /// </summary>
-        /// <param name="name"></param>
-        /// <returns></returns>
-        Task<UnitOfMeasure> GetByUnitNameAsync(string unitName);
-    }
-    public class UntOfMeasureRepository : IUnitOfMeasureRepository
-    {
-        public Task<UnitOfMeasure> GetByUnitNameAsync(string unitName)
+        if (_uomCache.TryGetValue(unitName, out var cachedUom))
         {
-            throw new NotImplementedException();
+            return cachedUom;
+        }
+
+        await InitializeCache();
+
+        if (_uomCache.TryGetValue(unitName, out cachedUom))
+        {
+            return cachedUom;
+        }
+        return new();
+    }
+
+    private async Task InitializeCache()
+    {
+        if (_uomCache.IsNullOrEmpty()) return;
+
+        var allUnits = await context.UnitOfMeasures.AsNoTracking()
+            .Select(u => u.ToDto()
+        ).ToListAsync();
+
+        foreach (var uom in allUnits)
+        {
+            if (uom?.Name == null) continue;
+            _uomCache.TryAdd(uom!.Name, uom);
         }
     }
 }
+

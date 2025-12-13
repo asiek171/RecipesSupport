@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Application\ReciesSupport.Application.csproj" />
     <ProjectReference Include="..\Domain\RecipesSupport.Domain.csproj" />
     <ProjectReference Include="..\NutritionixClient\NutritionixClient.csproj" />
   </ItemGroup>
