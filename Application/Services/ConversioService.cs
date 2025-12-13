@@ -11,7 +11,12 @@ namespace ReciesSupport.Application.Services
     {
         public decimal Convert(decimal quantity, string fromUnit, string toUnit)
         {
-            throw new NotImplementedException();
+            // Placeholder implementation
+            if (fromUnit == toUnit)
+            {
+                return quantity;
+            }
+            throw new NotImplementedException("Unit conversion logic is not implemented.");
         }
 
         public decimal Scale(decimal curentQuanity, decimal currentServings, decimal newServings)

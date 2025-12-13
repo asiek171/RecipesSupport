@@ -9,7 +9,11 @@
         /// <returns></returns>
         Task<UnitOfMeasure> GetByUnitNameAsync(string unitName);
     }
-    public class UntOfMeasureRepository : IUnitod
+    public class UntOfMeasureRepository : IUnitOfMeasureRepository
     {
+        public Task<UnitOfMeasure> GetByUnitNameAsync(string unitName)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
