@@ -21,7 +21,7 @@ namespace RecipesSupport.Tests.Unit.Services
         }
 
         [Fact]
-        public async Task Test_test()
+        public  void Test_test()
         {
             //Arrange
             //Act

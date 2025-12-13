@@ -16,7 +16,7 @@ namespace ReciesSupport.Application.Services.Interfaces
         /// <param name="fromUnit">The unit of measurement to convert from. Cannot be <see langword="null"/> or empty.</param>
         /// <param name="toUnit">The unit of measurement to convert to. Cannot be <see langword="null"/> or empty.</param>
         /// <returns>The equivalent value of <paramref name="quantity"/> expressed in the <paramref name="toUnit"/> unit.</returns>
-        decimal Convert(decimal quantity, string fromUnit, string toUnit);
+        Task<decimal> Convert(decimal quantity, string fromUnit, string toUnit);
         /// <summary>
         /// Calculates the adjusted quantity of an ingredient based on a change in the number of servings.
         /// </summary>

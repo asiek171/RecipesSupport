@@ -1,5 +1,5 @@
-﻿using ReciesSupport.Application.Services.Interfaces;
-using RecipesSuport.Infrastructure.Data.Repositories;
+﻿using ReciesSupport.Application.Interfaces;
+using ReciesSupport.Application.Services.Interfaces;
 
 namespace ReciesSupport.Application.Services
 {

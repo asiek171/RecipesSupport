@@ -13,7 +13,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Domain\RecipesSupport.Domain.csproj" />
     <ProjectReference Include="..\EdamamClient\EdamamClient.csproj" />
-    <ProjectReference Include="..\Infrastructure\RecipesSuport.Infrastructure.csproj" />
     <ProjectReference Include="..\NutritionixClient\NutritionixClient.csproj" />
     <ProjectReference Include="..\SpoonacularClient\SpoonacularClient.csproj" />
     <ProjectReference Include="..\TheMealDbClient\TheMealDbClient.csproj" />

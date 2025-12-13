@@ -1,7 +1,4 @@
-﻿using System;
-using System.Net.Http;
-using System.Threading.Tasks;
-using Application.Services;
+﻿using Application.Services;
 using Application.Services.Interfaces;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Hosting;
@@ -11,6 +8,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using ReciesSupport.Application.Services;
+using ReciesSupport.Application.Services.Interfaces;
 using Xunit;
 
 namespace RecipesSupport.Tests.Integration.Base
@@ -32,8 +31,6 @@ namespace RecipesSupport.Tests.Integration.Base
                 l.AddConsole();
                 l.SetMinimumLevel(LogLevel.Debug);
             });
-
-           
             
             builder.UseEnvironment("Integration");
             _appHost = base.CreateHost(builder);
@@ -58,6 +55,8 @@ namespace RecipesSupport.Tests.Integration.Base
                     services.Remove(descriptor);
 
                 services.AddScoped<IRecipeService, RecipeService>();
+                services.AddScoped<IRecipeScalingService, RecipeScallingService>();
+                services.AddScoped<IConversionService, ConversionService>();
                 //// Dodanie in-memory database dla testów
                 //services.AddDbContext<RecipesSupportDbContext>(options =>
                 //    options.UseInMemoryDatabase("RecipeDb_TST"));
