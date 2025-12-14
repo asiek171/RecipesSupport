@@ -3,19 +3,17 @@ using Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Domain.Configrations
+namespace Domain.Configrations;
+public class IngredientConfiguration : IEntityTypeConfiguration<Ingredient>
 {
-    public class IngredientConfiguration : IEntityTypeConfiguration<Ingredient>
+    public void Configure(EntityTypeBuilder<Ingredient> builder)
     {
-        public void Configure(EntityTypeBuilder<Ingredient> builder)
-        {
-            builder.HasKey(r => r.Id);
+        builder.HasKey(r => r.Id);
 
-            builder.Property(r => r.Name);
+        builder.Property(r => r.Name);
 
-            builder.Property(r => r.NormalizedName);
+        builder.Property(r => r.NormalizedName);
 
-            builder.Property(r => r.Category);
-        }
+        builder.Property(r => r.Category);
     }
 }

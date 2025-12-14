@@ -1,4 +1,4 @@
-﻿
+
 using System.IO;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Builder;
@@ -17,7 +17,7 @@ builder.Configuration
     .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true)
     .AddEnvironmentVariables();
 
-// Konfiguracja usług
+// Konfiguracja us�ug
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
