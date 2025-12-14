@@ -1,4 +1,3 @@
-using System.Threading.Tasks;
 using RecipesSupport.Tests.Integration.Base;
 using Xunit;
 
