@@ -21,14 +21,6 @@ public class UnitOfMeasureConfiguration : IEntityTypeConfiguration<UnitOfMeasure
         builder.Property(u => u.BaseConversionFactor)
             .HasColumnType("decimal(18,6)")
             .IsRequired()
-            .HasMaxLength(50);
-
-        builder.HasData(
-            new { UnitId = 1, Name = "gram", UnitType = "Weight", BaseConversionFactor = 1.0m },
-            new { UnitId = 6, Name = "mililitr", UnitType = "Volume", BaseConversionFactor = 1.0m },
-            new { UnitId = 10, Name = "szklanka", UnitType = "Volume", BaseConversionFactor = 250.0m },
-            new { UnitId = 12, Name = "sztuka", UnitType = "Other", BaseConversionFactor = 1.0m }
-            // ... need to add all other seed data here
-        );
+            .HasMaxLength(50);        
     }
 }

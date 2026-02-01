@@ -5,11 +5,11 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipesSupport", "RecipesSupport\RecipesSupport.csproj", "{E29F6581-303D-470F-9925-BF608A75D6D6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReciesSupport.Application", "Application\ReciesSupport.Application.csproj", "{68CC1C31-EC5C-4CC5-A04B-FC6EF3D3595E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipesSupport.Application", "Application\RecipesSupport.Application.csproj", "{68CC1C31-EC5C-4CC5-A04B-FC6EF3D3595E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipesSupport.Domain", "Domain\RecipesSupport.Domain.csproj", "{E0B5830E-1356-4F24-A0C8-95329AB4AFC1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipesSuport.Infrastructure", "Infrastructure\RecipesSuport.Infrastructure.csproj", "{2A2E183E-2EA1-408D-B787-8EDB11C90338}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipesSupport.Infrastructure", "Infrastructure\RecipesSupport.Infrastructure.csproj", "{2A2E183E-2EA1-408D-B787-8EDB11C90338}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpoonacularClient", "SpoonacularClient\SpoonacularClient.csproj", "{C9E9D02A-ABF7-49FB-916A-B652E8A2DE4F}"
 EndProject

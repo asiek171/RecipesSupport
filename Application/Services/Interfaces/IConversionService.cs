@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ReciesSupport.Application.Services.Interfaces
+namespace RecipesSupport.Application.Services.Interfaces
 {
     public interface IConversionService
     {

@@ -1,10 +1,9 @@
-﻿using Domain.Models;
-using ReciesSupport.Application.Interfaces;
-using ReciesSupport.Application.Models;
-using ReciesSupport.Application.Services.Interfaces;
+﻿using RecipesSupport.Application.Interfaces;
+using RecipesSupport.Application.Models;
+using RecipesSupport.Application.Services.Interfaces;
 using System.Collections.Concurrent;
 
-namespace ReciesSupport.Application.Services
+namespace RecipesSupport.Application.Services
 {
     public class ConversionService(
         IUnitOfMeasureRepository unitOfMeasureRepository

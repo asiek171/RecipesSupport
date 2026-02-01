@@ -1,4 +1,4 @@
-﻿namespace ReciesSupport.Application.Interfaces;
+﻿namespace RecipesSupport.Application.Interfaces;
 
 public interface IUnitOfMeasureRepository
 {
@@ -7,7 +7,7 @@ public interface IUnitOfMeasureRepository
     /// </summary>
     /// <param name="unitName">The name of the unit of measure to retrieve. Cannot be <see langword="null"/> or empty.</param>
     /// <returns>A task that represents the asynchronous operation. The task result contains a <see
-    /// cref="ReciesSupport.Application.Models.UnitOfMeasureDTO"/> representing the unit of measure if found; otherwise,
+    /// cref="RecipesSupport.Application.Models.UnitOfMeasureDTO"/> representing the unit of measure if found; otherwise,
     /// <see langword="null"/>.</returns>
-    Task<ReciesSupport.Application.Models.UnitOfMeasureDTO> GetByUnitNameAsync(string unitName);
+    Task<RecipesSupport.Application.Models.UnitOfMeasureDTO> GetByUnitNameAsync(string unitName);
 }

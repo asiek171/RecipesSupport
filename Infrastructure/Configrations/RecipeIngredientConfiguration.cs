@@ -21,5 +21,13 @@ public class RecipeIngredientConfiguration : IEntityTypeConfiguration<RecipeIngr
         builder.Property(r => r.Quantity)
             .HasColumnType("decimal(18,4)")
             .IsRequired();
+
+        builder.HasOne(r => r.Ingredient)
+            .WithMany()
+            .HasForeignKey(r => r.IngredientId);
+
+        builder.HasOne(r => r.UnitOfMeasure)
+            .WithMany()
+            .HasForeignKey(r => r.UnitOfMeasureId);
     }
 }

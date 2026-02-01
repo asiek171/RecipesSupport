@@ -16,8 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Application\ReciesSupport.Application.csproj" />
-    <ProjectReference Include="..\Infrastructure\RecipesSuport.Infrastructure.csproj" />
+    <ProjectReference Include="..\Application\RecipesSupport.Application.csproj" />
+    <ProjectReference Include="..\Infrastructure\RecipesSupport.Infrastructure.csproj" />
     <ProjectReference Include="..\TheMealDbClient\TheMealDbClient.csproj" />
   </ItemGroup>
 

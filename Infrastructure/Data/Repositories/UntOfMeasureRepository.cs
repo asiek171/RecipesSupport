@@ -1,11 +1,11 @@
 ﻿using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using ReciesSupport.Application.Mappers;
-using ReciesSupport.Application.Models;
-using ReciesSupport.Application.Interfaces;
+using RecipesSupport.Application.Mappers;
+using RecipesSupport.Application.Models;
+using RecipesSupport.Application.Interfaces;
 
-namespace RecipesSuport.Infrastructure.Data.Repositories;
+namespace RecipesSupport.Infrastructure.Data.Repositories;
 
 public class UntOfMeasureRepository(RecipesSupportDbContext context) : IUnitOfMeasureRepository
 {

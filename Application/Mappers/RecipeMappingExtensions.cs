@@ -1,7 +1,7 @@
 ﻿using Domain.Models;
-using ReciesSupport.Application.Models;
+using RecipesSupport.Application.Models;
 
-namespace ReciesSupport.Application.Mappers;
+namespace RecipesSupport.Application.Mappers;
 public static class RecipeMappingExtensions
 {
     public static UnitOfMeasureDTO ToDto(this UnitOfMeasure uom)

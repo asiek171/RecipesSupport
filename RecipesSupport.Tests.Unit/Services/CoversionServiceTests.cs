@@ -1,7 +1,7 @@
 ﻿using AwesomeAssertions;
 using Moq;
-using ReciesSupport.Application.Interfaces;
-using ReciesSupport.Application.Services;
+using RecipesSupport.Application.Interfaces;
+using RecipesSupport.Application.Services;
 
 namespace RecipesSupport.Tests.Unit.Services
 {
@@ -40,14 +40,14 @@ namespace RecipesSupport.Tests.Unit.Services
         {
             //Arrange
             _uomRepMock.Setup(x => x.GetByUnitNameAsync("currentUnitName"))
-                .ReturnsAsync(new ReciesSupport.Application.Models.UnitOfMeasureDTO
+                .ReturnsAsync(new RecipesSupport.Application.Models.UnitOfMeasureDTO
                 {
                     BaseConversionFactor = conversionFactorCurrentUnit,
                     UnitType = "UnitType",
                     Name = "currentUnitName",
                 });
             _uomRepMock.Setup(x => x.GetByUnitNameAsync("newUnitName"))
-                .ReturnsAsync(new ReciesSupport.Application.Models.UnitOfMeasureDTO
+                .ReturnsAsync(new RecipesSupport.Application.Models.UnitOfMeasureDTO
                 {
                     BaseConversionFactor = conversionFactorNewUnit,
                     UnitType = "UnitType",

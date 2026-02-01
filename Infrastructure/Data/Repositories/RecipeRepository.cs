@@ -1,9 +1,9 @@
 ﻿using Domain.Models;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
-using ReciesSupport.Application.Interfaces;
+using RecipesSupport.Application.Interfaces;
 
-namespace RecipesSuport.Infrastructure.Data.Repositories;
+namespace RecipesSupport.Infrastructure.Data.Repositories;
 
 public class RecipeRepository(RecipesSupportDbContext context) : IRecipeRepository
 {

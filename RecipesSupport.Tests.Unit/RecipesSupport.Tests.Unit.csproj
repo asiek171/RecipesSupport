@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Application\ReciesSupport.Application.csproj" />
+    <ProjectReference Include="..\Application\RecipesSupport.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>

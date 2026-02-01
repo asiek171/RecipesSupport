@@ -14,7 +14,8 @@ public class RecipeConfiguration : IEntityTypeConfiguration<Recipe>
 
         builder.Property(r => r.PrepTime);
         
-        builder.Property(r => r.Servings);
+        builder.Property(r => r.Servings)
+            .HasPrecision(5,2);
 
         builder.Property(r => r.Instructions);
 
@@ -23,5 +24,7 @@ public class RecipeConfiguration : IEntityTypeConfiguration<Recipe>
         builder.HasMany(r => r.Ingredients)
             .WithOne()
             .OnDelete(DeleteBehavior.Cascade);
+
+        builder.HasIndex(r => r.Title);
     }
 }

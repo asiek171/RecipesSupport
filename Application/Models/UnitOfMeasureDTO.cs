@@ -1,4 +1,4 @@
-﻿namespace ReciesSupport.Application.Models;
+﻿namespace RecipesSupport.Application.Models;
 
 public class UnitOfMeasureDTO
 {

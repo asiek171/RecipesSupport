@@ -8,8 +8,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using ReciesSupport.Application.Services;
-using ReciesSupport.Application.Services.Interfaces;
+using RecipesSupport.Application.Services;
+using RecipesSupport.Application.Services.Interfaces;
 using Xunit;
 
 namespace RecipesSupport.Tests.Integration.Base
