@@ -1,6 +1,7 @@
 using Application.Handlers;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
+using RecipesSupport.Infrastructure.Data;
 using RecipesSupport.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +12,8 @@ builder.Services.AddCustomCashing();
 builder.Services.AddStrategy();
 builder.Services.AddApplicationServices();
 builder.Services.AddExternalIntegrationServices(builder.Configuration);
+
+
 
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(AddIngredientCommandHandler).Assembly));
 
@@ -24,6 +27,8 @@ builder.Services.AddDbContext<RecipesSupportDbContext>(options =>
 builder.Services.AddControllers();
 
 var app = builder.Build();
+
+await app.Services.SeedData();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

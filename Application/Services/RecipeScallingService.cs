@@ -1,7 +1,7 @@
-﻿using ReciesSupport.Application.Interfaces;
-using ReciesSupport.Application.Services.Interfaces;
+﻿using RecipesSupport.Application.Interfaces;
+using RecipesSupport.Application.Services.Interfaces;
 
-namespace ReciesSupport.Application.Services
+namespace RecipesSupport.Application.Services
 {
     public class RecipeScallingService(
             IRecipeRepository recipeRepository,

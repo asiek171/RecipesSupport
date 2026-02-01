@@ -1,9 +1,9 @@
 ﻿using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using ReciesSupport.Application.Interfaces;
+using RecipesSupport.Application.Interfaces;
 
-namespace RecipesSuport.Infrastructure.Data.Repositories;
+namespace RecipesSupport.Infrastructure.Data.Repositories;
 
 public class IngredientTagRepository(RecipesSupportDbContext context) : IIngredientTagRepository
 {

@@ -1,4 +1,4 @@
-﻿namespace ReciesSupport.Application.Interfaces;
+﻿namespace RecipesSupport.Application.Interfaces;
 
 public interface IIngredientTagRepository
 {
