@@ -1,4 +1,5 @@
 ﻿using Application.Services.Strategy.Interfaces;
+using RecipesSupport.Application.Providers;
 using TheMealDbClient;
 
 namespace Application.Services.Strategy
@@ -10,9 +11,14 @@ namespace Application.Services.Strategy
         {
             _service = service;
         }
-        public async Task<string> FetchRecipes(string query)
+        public async Task<ProviderResult> FetchRecipes(string query, CancellationToken ct)
         {
-            return await _service.GetSingleRandom();
+            var response = await _service.GetSingleRandom();
+            return new ProviderResult()
+            {
+                IsSuccess = response != null,
+                Recipes = new List<ProviderRecipeDto> { new ProviderRecipeDto { Title = " TheMealDb" } }
+            };
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Application.Models;
+using RecipesSupport.Application.Providers;
 
 namespace Application.Services.Interfaces
 {
@@ -6,5 +7,6 @@ namespace Application.Services.Interfaces
     {
         Task<string> GetByIngredients(string ingedients);
         Task<string> GetByRecipeId(int recipeId);
+        Task<List<ProviderResult>> SearchAcrossAllSystemsAsync(string ingredient, CancellationToken ct);
     }
 }

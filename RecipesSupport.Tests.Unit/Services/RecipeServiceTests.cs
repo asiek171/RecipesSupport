@@ -17,7 +17,7 @@ namespace RecipesSupport.Tests.Unit.Services
             _mediatr = new Mock<IMediator>();
             _factory = new Mock<IIntegrationFactory>();
 
-            _service = new RecipeService(_factory.Object, _mediatr.Object);
+            _service = new RecipeService(_mediatr.Object, _factory.Object);
         }
 
         [Fact]

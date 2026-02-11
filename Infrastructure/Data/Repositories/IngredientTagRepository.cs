@@ -1,7 +1,7 @@
 ﻿using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using RecipesSupport.Application.Interfaces;
+using RecipesSupport.Application.Interfaces.Repositories;
 
 namespace RecipesSupport.Infrastructure.Data.Repositories;
 

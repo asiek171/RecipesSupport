@@ -2,7 +2,7 @@
 {
     public interface ISpoonacularService
     {
-        Task<string> SearchRecipesByIngredients(string ingredients);
-        Task<string> GetRecipeInformation(int recipeId);
+        Task<string> SearchRecipesByIngredients(string ingredients, CancellationToken ct);
+        Task<string> GetRecipeInformation(int recipeId, CancellationToken ct);
     }
 }

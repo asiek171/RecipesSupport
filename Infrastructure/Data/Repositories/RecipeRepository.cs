@@ -1,7 +1,7 @@
 ﻿using Domain.Models;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
-using RecipesSupport.Application.Interfaces;
+using RecipesSupport.Application.Interfaces.Repositories;
 
 namespace RecipesSupport.Infrastructure.Data.Repositories;
 

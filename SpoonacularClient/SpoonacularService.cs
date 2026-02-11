@@ -17,19 +17,24 @@ namespace SpoonacularClient
             _cache = cache;
 
         }
-        public async Task<string> SearchRecipesByIngredients(string ingredients)
+        public async Task<string> SearchRecipesByIngredients(string ingredients, CancellationToken ct)
         {
 
             var url = $"{_settings.BaseUrl}/recipes/findByIngredients?ingredients={ingredients}&apiKey={_settings.ApiKey}";
-            var response = await _httpClient.GetAsync(url);
+            var response = await _httpClient.GetAsync(url, ct);
 
-            response.EnsureSuccessStatusCode();
+            if (response.IsSuccessStatusCode == false)
+            {
+                throw new Exception($"Error fetching recipes: {response.StatusCode}");
+            }
+
+            //response.EnsureSuccessStatusCode();
             var content = await response.Content.ReadAsStringAsync();
 
             return content;
         }
 
-        public async Task<string> GetRecipeInformation(int recipeId)
+        public async Task<string> GetRecipeInformation(int recipeId, CancellationToken ct)
         {
             string cacheKey = $"{nameof(GetRecipeInformation)}-{recipeId}";
 
@@ -39,7 +44,7 @@ namespace SpoonacularClient
             }
 
             var url = $"{_settings.BaseUrl}/recipes/{recipeId}/information?apiKey={_settings.ApiKey}";
-            var response = await _httpClient.GetAsync(url);
+            var response = await _httpClient.GetAsync(url, ct);
 
             response.EnsureSuccessStatusCode();
             var content = await response.Content.ReadAsStringAsync();

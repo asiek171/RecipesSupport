@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using RecipesSupport.Application.Mappers;
 using RecipesSupport.Application.Models;
-using RecipesSupport.Application.Interfaces;
+using RecipesSupport.Application.Interfaces.Repositories;
 
 namespace RecipesSupport.Infrastructure.Data.Repositories;
 

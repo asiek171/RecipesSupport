@@ -26,6 +26,16 @@ namespace RecipesSupport.Controllers
             return Ok(result);
         }
 
+
+        [HttpGet("searchAcrossAllSystemsAsync")]
+        public async Task<IActionResult> SearchAcrossAllSystemsAsync(string ingredients, CancellationToken ct)
+        {
+            var result = await _recipeService.SearchAcrossAllSystemsAsync(ingredients, ct);
+
+            return Ok(result);
+        }
+
+
         [HttpGet("getRecipeInformation")]
         public IActionResult GetRecipeInformation([FromQuery] int recipeId)
         {

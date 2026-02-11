@@ -1,5 +1,6 @@
 ﻿using Application.Services.Strategy.Interfaces;
 using EdamamClient;
+using RecipesSupport.Application.Providers;
 
 namespace Application.Services.Strategy
 {
@@ -10,9 +11,24 @@ namespace Application.Services.Strategy
         {
             _service = service;
         }
-        public async Task<string> FetchRecipes(string query)
+        public async Task<ProviderResult> FetchRecipes(string query, CancellationToken ct)
         {
-            return await _service.NutritinData(query);
+            var result = await _service.Recipes(query, ct);
+
+            var ingredients = new List<ProviderRecipeIngredientDto>();
+
+            return new ProviderResult
+            {
+                IsSuccess = result != null,
+                Recipes = new List<ProviderRecipeDto>
+                {
+                    new ProviderRecipeDto
+                    {
+                        Title = result!.Hits[0].Recipe.Label
+                    }
+                },
+                Error = result == null ? "Failed to fetch data from Edamam." : null
+            };
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using AwesomeAssertions;
 using Moq;
-using RecipesSupport.Application.Interfaces;
+using RecipesSupport.Application.Interfaces.Repositories;
 using RecipesSupport.Application.Services;
 
 namespace RecipesSupport.Tests.Unit.Services
