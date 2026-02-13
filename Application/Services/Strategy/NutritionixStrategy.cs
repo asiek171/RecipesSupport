@@ -1,5 +1,7 @@
 ﻿using Application.Services.Strategy.Interfaces;
 using NutritionixClient;
+using RecipesSupport.Application.Providers;
+using System.Reflection.Metadata.Ecma335;
 
 namespace Application.Services.Strategy
 {
@@ -10,9 +12,14 @@ namespace Application.Services.Strategy
         {
             _service = service;
         }
-        public async Task<string> FetchRecipes(string query)
+        public async Task<ProviderResult> FetchRecipes(string query, CancellationToken ct)
         {
-            return await _service.SearchRecipesByIngredients(query);
+            var response = await _service.SearchRecipesByIngredients(query);
+            return new ProviderResult()
+            {
+                IsSuccess = response != null,
+                Recipes = new List<ProviderRecipeDto> { new ProviderRecipeDto { Title = " nutritionix" } }
+            };
         }
     }
 }

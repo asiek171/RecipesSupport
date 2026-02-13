@@ -1,7 +1,9 @@
-﻿namespace Application.Services.Strategy.Interfaces
+﻿using RecipesSupport.Application.Providers;
+
+namespace Application.Services.Strategy.Interfaces
 {
     public interface IIntegrationStrategy
     {
-        Task<string> FetchRecipes(string query);
+        Task<ProviderResult> FetchRecipes(string query, CancellationToken ct);
     }
 }

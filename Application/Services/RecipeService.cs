@@ -1,31 +1,56 @@
-﻿using Application.Services.Interfaces;
+﻿using Application.Enums;
+using Application.Services.Interfaces;
 using Application.Services.Strategy.Interfaces;
-using MediatR;
+using Microsoft.Extensions.Logging;
+using RecipesSupport.Application.Providers;
 
 namespace Application.Services
 {
-    public class RecipeService : IRecipeService
+    public class RecipeService(
+        IIntegrationFactory strategyFactory,
+        ILogger<RecipeService> logger) : IRecipeService
     {
-        private readonly IMediator _mediator;
-
-        private readonly IIntegrationFactory _strategyFactory;
-        public RecipeService(IIntegrationFactory strategyFactory,
-                             IMediator mediator)
-        {
-            _strategyFactory = strategyFactory;
-            _mediator = mediator;
-        }
-
         public async Task<string> GetByIngredients(string ingredients)
         {
-            var strategy = _strategyFactory.GetStrategy(Application.Enums.SystemType.Edamam);
+            var strategy = strategyFactory.GetStrategy(Enums.SystemType.Edamam);
 
-            var result = await strategy.FetchRecipes(ingredients);
+            var result = await strategy.FetchRecipes(ingredients, CancellationToken.None);
 
-            return result;
+            if (result?.Recipes is not null && result.Recipes.Count > 0)
+            {
+                return string.Join(", ", result.Recipes.Select(r => r.Title ?? string.Empty));
+            }
+
+            return string.Empty;
         }
 
-        public async Task<string> GetByRecipeId(int recipeId)
+        public async Task<List<ProviderResult>> SearchAcrossAllSystemsAsync(string ingredient, CancellationToken ct)
+        {
+            using var cts = CancellationTokenSource.CreateLinkedTokenSource(ct);
+            cts.CancelAfter(TimeSpan.FromSeconds(3));
+
+            var systems = new[] { SystemType.Edamam, SystemType.Spoonacular, SystemType.TheMealDb, SystemType.Nutritionix };
+
+            var tasks = systems.Select(async type =>
+            {
+                try
+                {
+                    var strategy = strategyFactory.GetStrategy(type);
+
+                    return await strategy.FetchRecipes(ingredient, cts.Token);
+                }
+                catch (Exception ex)
+                {
+                    logger.LogError(ex, $"Service error: {type}");
+                    return new ProviderResult();
+                }
+            });
+
+            var results = await Task.WhenAll(tasks);
+
+            return results.Select(r => r).ToList();
+        }
+        public Task<string> GetByRecipeId(int recipeId)
         {
             throw new NotImplementedException();
         }

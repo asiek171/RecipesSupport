@@ -1,23 +1,24 @@
 ﻿using Application.Services;
 using Application.Services.Strategy.Interfaces;
 using MediatR;
+using Microsoft.Extensions.Logging;
 using Moq;
 
 namespace RecipesSupport.Tests.Unit.Services
 {
     public class RecipeServiceTests
     {
-        private readonly Mock<IMediator> _mediatr;
         private readonly Mock<IIntegrationFactory> _factory;
+        private readonly Mock<ILogger<RecipeService>> _logger;
 
         private RecipeService _service;
 
         public RecipeServiceTests()
         {
-            _mediatr = new Mock<IMediator>();
             _factory = new Mock<IIntegrationFactory>();
+            _logger = new Mock<ILogger<RecipeService>>();
 
-            _service = new RecipeService(_factory.Object, _mediatr.Object);
+            _service = new RecipeService(_factory.Object,_logger.Object);
         }
 
         [Fact]

@@ -1,4 +1,4 @@
-﻿using RecipesSupport.Application.Interfaces;
+﻿using RecipesSupport.Application.Interfaces.Repositories;
 using RecipesSupport.Application.Models;
 using RecipesSupport.Application.Services.Interfaces;
 using System.Collections.Concurrent;

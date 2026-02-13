@@ -1,6 +1,6 @@
 ﻿using Domain.Models;
 
-namespace RecipesSupport.Application.Interfaces;
+namespace RecipesSupport.Application.Interfaces.Repositories;
 
 public interface IRecipeRepository
 {

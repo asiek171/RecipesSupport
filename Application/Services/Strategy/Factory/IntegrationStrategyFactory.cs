@@ -14,8 +14,6 @@ namespace Application.Services.Strategy.Factory
 
         public IIntegrationStrategy GetStrategy(SystemType systemType)
         {
-            var client = _serviceProvider.GetRequiredService<EdamamStrategy>();
-
             return systemType switch
             {
                 SystemType.Spoonacular => _serviceProvider.GetRequiredService<SpoonacularStrategy>(),
